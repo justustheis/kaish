@@ -1,0 +1,33 @@
+{
+    "name": "justustheis/kaish",
+    "description": "A russian doll caching system with blade support for laravel",
+    "license": "MIT",
+    "keywords": ["laravel", "cache", "russian-doll", "blade"],
+    "authors": [
+        {
+            "name": "Justus Theis",
+            "email": "kontakt@j-theis.de"
+        }
+    ],
+    "require": {
+        "php": "^7.0|^8.0",
+        "illuminate/support": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JustusTheis\\Kaish\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": ["tests/TestCase.php"],
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "illuminate/database": "^8.0",
+        "illuminate/cache": "^8.0",
+        "phpspec/prophecy-phpunit": "^2.0"
+    }
+}
