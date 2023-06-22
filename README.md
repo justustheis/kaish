@@ -1,5 +1,5 @@
-# kaish is a russian doll caching system with blade support for Laravel 8
-![Maintenance](https://img.shields.io/maintenance/yes/2021)
+# kaish is a russian doll caching system with blade support for Laravel 10
+![Maintenance](https://img.shields.io/maintenance/yes/2023)
 ![Packagist](https://img.shields.io/packagist/dt/justustheis/kaish)
 ![Packagist Version](https://img.shields.io/packagist/v/justustheis/kaish)
 ![GitHub issues](https://img.shields.io/github/issues/justustheis/kaish)
